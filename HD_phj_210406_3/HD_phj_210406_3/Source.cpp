@@ -9,6 +9,7 @@ void main()
 	
 	
 	scanf_s("%d", &r);
+	fseek(stdin, 0, SEEK_END);
 
 	area = PI * r * r;
 	circ = PI * 2 * r;
